@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/main_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#8866ff00"
+        android:gravity="center"
+        android:text="归属地查询"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/query_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入要查询的号码" />
+
+    <Button
+        android:onClick="queryLocation"
+        android:id="@+id/querybutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:text="点击查询"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/query_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示号码归属地"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</LinearLayout>

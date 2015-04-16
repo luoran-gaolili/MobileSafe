@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/main_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#8866ff00"
+        android:gravity="center"
+        android:text="进程管理器设置"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/task_setupbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示系统进程 "
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/task_setupboxone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="锁屏清理进程"
+        android:textSize="18sp" />
+
+</LinearLayout>
